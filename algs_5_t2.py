@@ -18,7 +18,7 @@ def add_hex(a, b):
 
     if len(a) < len(b):
         a, b = b, a
-    b.appendleft('0' * (len(a) - len(b)))
+    b.extendleft('0' * (len(a) - len(b)))
 #    print(a)
 #    print(b)
     n2 = 0
