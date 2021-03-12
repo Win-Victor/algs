@@ -19,8 +19,8 @@ def add_hex(a, b):
     if len(a) < len(b):
         a, b = b, a
         b.appendleft('0' * (len(a) - len(b)))
-    print(a)
-    print(b)
+#    print(a)
+#    print(b)
     n2 = 0
     while len(a) > 0:
         n = hex_.index(a.pop()) + hex_.index(b.pop()) + n2
@@ -31,7 +31,7 @@ def add_hex(a, b):
             n1 = n
             n2 = 0
         c.appendleft(hex_[n1])
-    if len(a) == 0 and n2 > 2:
+    if len(a) == 0 and n2 > 0:
         c.appendleft(hex_[n2])
 
     return c
