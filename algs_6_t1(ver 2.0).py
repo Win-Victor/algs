@@ -93,115 +93,115 @@ def prep_2(n):
 
 """Код для проверки времени исполнения алгоритма"""
 
-# n = 100
-# SIZE = n
-# MIN_ITEM = 0
-# MAX_ITEM = 1000
-# array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
-# print(f"{n = }")
-# print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
-# print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
-# print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
-# print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
-#
-# n = 500
-# SIZE = n
-# MIN_ITEM = 0
-# MAX_ITEM = 1000
-# array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
-# print(f"{n = }")
-# print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
-# print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
-# print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
-# print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
-#
-# n = 1000
-# SIZE = n
-# MIN_ITEM = 0
-# MAX_ITEM = 1000
-# array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
-# print(f"{n = }")
-# print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
-# print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
-# print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
-# print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
-#
-# n = 5000
-# SIZE = n
-# MIN_ITEM = 0
-# MAX_ITEM = 1000
-# array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
-# print(f"{n = }")
-# print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
-# print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
-# print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
-# print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
-#
-# n = 10000
-# SIZE = n
-# MIN_ITEM = 0
-# MAX_ITEM = 1000
-# array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
-# print(f"{n = }")
-# print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
-# print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
-# print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
-# print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
-#
-# n = 50000
-# SIZE = n
-# MIN_ITEM = 0
-# MAX_ITEM = 1000
-# array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
-# print(f"{n = }")
-# print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
-# print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
-# print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
-# print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
-#
-# n = 100000
-# SIZE = n
-# MIN_ITEM = 0
-# MAX_ITEM = 1000
-# array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
-# print(f"{n = }")
-# print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
-# print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
-# print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
-# print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
-#
-# n = 500_000
-# SIZE = n
-# MIN_ITEM = 0
-# MAX_ITEM = 1000
-# array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
-# print(f"{n = }")
-# print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
-# print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
-# print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
-# print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
-#
-# n = 1_000_000
-# SIZE = n
-# MIN_ITEM = 0
-# MAX_ITEM = 1000
-# array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
-# print(f"{n = }")
-# print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
-# print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
-# print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
-# print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
-#
-# n = 5_000_000
-# SIZE = n
-# MIN_ITEM = 0
-# MAX_ITEM = 1000
-# array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
-# print(f"{n = }")
-# print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
-# print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
-# print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
-# print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
+n = 100
+SIZE = n
+MIN_ITEM = 0
+MAX_ITEM = 1000
+array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
+print(f"{n = }")
+print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
+print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
+print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
+print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
+
+n = 500
+SIZE = n
+MIN_ITEM = 0
+MAX_ITEM = 1000
+array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
+print(f"{n = }")
+print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
+print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
+print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
+print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
+
+n = 1000
+SIZE = n
+MIN_ITEM = 0
+MAX_ITEM = 1000
+array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
+print(f"{n = }")
+print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
+print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
+print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
+print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
+
+n = 5000
+SIZE = n
+MIN_ITEM = 0
+MAX_ITEM = 1000
+array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
+print(f"{n = }")
+print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
+print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
+print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
+print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
+
+n = 10000
+SIZE = n
+MIN_ITEM = 0
+MAX_ITEM = 1000
+array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
+print(f"{n = }")
+print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
+print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
+print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
+print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
+
+n = 50000
+SIZE = n
+MIN_ITEM = 0
+MAX_ITEM = 1000
+array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
+print(f"{n = }")
+print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
+print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
+print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
+print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
+
+n = 100000
+SIZE = n
+MIN_ITEM = 0
+MAX_ITEM = 1000
+array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
+print(f"{n = }")
+print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
+print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
+print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
+print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
+
+n = 500_000
+SIZE = n
+MIN_ITEM = 0
+MAX_ITEM = 1000
+array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
+print(f"{n = }")
+print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
+print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
+print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
+print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
+
+n = 1_000_000
+SIZE = n
+MIN_ITEM = 0
+MAX_ITEM = 1000
+array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
+print(f"{n = }")
+print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
+print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
+print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
+print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
+
+n = 5_000_000
+SIZE = n
+MIN_ITEM = 0
+MAX_ITEM = 1000
+array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
+print(f"{n = }")
+print('old', timeit.timeit('my_old_min_max(1000)', number=100, globals=globals()))
+print('new', timeit.timeit('my_new_min_max(1000)', number=100, globals=globals()))
+print('prep_1', timeit.timeit('prep_1(1000)', number=100, globals=globals()))
+print('prep_2', timeit.timeit('prep_2(1000)', number=100, globals=globals()))
 
 """
 n = 100
